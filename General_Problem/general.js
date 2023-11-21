@@ -1,15 +1,4 @@
-//Prime no
-function isPrime(n){
-    if(n<2) return false
-    for(let i=2;i<=n;i++){
-        if(i%n===0) {
-          return false
-    }else{
-     return true
-      
-    }}
-    }
-    console.log(isPrime(5)) //true
+
 
     // is palindrome 
     const isPalindrome=(n)=>{
@@ -24,18 +13,6 @@ function isPrime(n){
       return n===reverseNum
     }
     console.log(isPalindrome(-121))
-
-    // is String palindrome
-    const isStringPalindrome=(str)=>{
-      let reverseStr="";
-      for(let i=str.length-1;i>=0;i--){
-        reverseStr+=str.charAt(i)
-      
-      }
-       if (reverseStr==str) return true;
-       return false
-      }
-      console.log(isStringPalindrome("did"))// true
 
 
     // find a 6th place fibonacci number
@@ -53,3 +30,4 @@ const fibonacci=(n)=>{
   return current
 }
 console.log("fibonacci",fibonacci(6))
+
